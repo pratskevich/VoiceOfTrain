@@ -80,12 +80,12 @@ const EditorPage = () => {
               <>
                 <h2>Выберите участок карты</h2>
                 <div className={s.costyl} style={{ width: "85vw", height: "85vh" }}>
-                    <Map
-                        defaultState={{ center, zoom }}
-                        width="100%"
-                        height="100%"
-                        onBoundsChange={handleMapChange}
-                    />
+                  <Map
+                      defaultState={{ center, zoom }}
+                      width="100%"
+                      height="100%"
+                      onBoundsChange={handleMapChange}
+                  />
                 </div>
                 <button onClick={confirmArea}>Использовать эту область</button>
               </>
